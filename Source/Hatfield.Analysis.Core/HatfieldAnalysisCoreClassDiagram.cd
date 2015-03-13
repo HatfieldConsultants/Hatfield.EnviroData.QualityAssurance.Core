@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hatfield.Analysis.Core.AnalysisResultBase">
+    <Position X="9.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAFA=</HashCode>
+      <FileName>AnalysisResultBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hatfield.Analysis.Core.AnalyzerBase">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnalyzerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hatfield.Analysis.Core.AnalysisResultLevelHelper">
+    <Position X="3.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACACAAAAAAAAAAAABABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AnalysisResultLevelHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Hatfield.Analysis.Core.IAnalysisChain">
+    <Position X="0.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>IAnalysisChain.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hatfield.Analysis.Core.IAnalysisParameters">
+    <Position X="2.5" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnalysisParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hatfield.Analysis.Core.IAnalyzer">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hatfield.Analysis.Core.IAnalysisResult">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>IAnalysisResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hatfield.Analysis.Core.ISourceLocation">
+    <Position X="0.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISourceLocation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Hatfield.Analysis.Core.AnalysisResultLevel" Collapsed="true">
+    <Position X="9.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABgAAAAAAAAAAAAAAAAQAAAAAAAAQABAAAAAA=</HashCode>
+      <FileName>AnalysisResultLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
