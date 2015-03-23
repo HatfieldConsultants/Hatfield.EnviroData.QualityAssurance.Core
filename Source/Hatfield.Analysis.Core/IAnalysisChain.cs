@@ -7,7 +7,7 @@ namespace Hatfield.Analysis.Core
 {
     public interface IAnalysisChain
     {
-        IEnumerable<IAnalysisParameters> AnalysisChain { get; }
+        IEnumerable<IAnalysisParameters> AllAnalysisParameters { get; }
 
     }
 }

@@ -7,6 +7,6 @@ namespace Hatfield.Notification
 {
     public interface INotifier
     {
-        bool SendNotification(INotificationContent content);
+        bool SendNotification(INotificationContent content, string notificationResult);
     }
 }

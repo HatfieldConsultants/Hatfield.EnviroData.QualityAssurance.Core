@@ -33,7 +33,7 @@ namespace Hatfield.Notification
             _serverSenderEmail = serverSenderEmail;
         }
 
-        public bool SendNotification(INotificationContent content)
+        public bool SendNotification(INotificationContent content, string notificationResult)
         {
             var emailContent = content as EmailNotificationContent;
             if(emailContent == null)
@@ -60,7 +60,7 @@ namespace Hatfield.Notification
 
             var builder = new MimeKit.BodyBuilder();
 
-            builder.HtmlBody = emailContent.Content;
+            builder.HtmlBody = emailContent.Content + "<br/>" + notificationResult;
             // TODO: add a plain text part too?
 
             message.Body = builder.ToMessageBody();
